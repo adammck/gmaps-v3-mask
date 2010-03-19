@@ -1,0 +1,16 @@
+This is a helper class for Google Maps v3, for highlighting areas of a
+map by masking the rest of it with two polygons. The public API is the
+same as google.maps.Polygon:
+
+    var wyoming = [
+        new google.maps.LatLng(45, -111),
+        new google.maps.LatLng(45, -104),
+        new google.maps.LatLng(41, -104),
+        new google.maps.LatLng(41, -111)];
+
+    new adammck.maps.Mask({
+        "paths": [wyoming],
+        "map": map
+    });
+
+Check out a demo at: http://adammck.github.com/gmaps-v3-mask/
