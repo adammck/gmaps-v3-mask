@@ -1,0 +1,80 @@
+/* vim:set et ts=4 sw=4 */
+
+
+body, h1, h2, p, ul {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 9pt/1 verdana, sans-serif;
+    background: #fff;
+    color: #666;
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+header, footer, #map {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+
+#map {
+    background: #e5e3df;
+}
+
+    #map div.loading {
+        color: #aaa;
+        text-align: center;
+        position: absolute;
+        margin-top: -0.5em;
+        width: 100%;
+        top: 50%;
+    }
+
+
+#map {
+    top: 2.5em;
+    margin-top: 2px;
+}
+
+header {
+    top: 0;
+    padding: 0.5em;
+    margin-bottom: 1px;
+    border-bottom: 1px solid #09f;
+}
+
+    header h1 {
+        font-size: 1.5em;
+        font-weight: normal;
+    }
+
+
+
+#map {
+    bottom: 4em;
+    margin-bottom: 2px;
+}
+
+footer {
+    bottom: 0;
+    height: 4em;
+    border-top: 1px solid #09f;
+}
+
+    footer p.copyright {
+        text-align: right;
+        float: right;
+        line-height: 1.5;
+        padding: 0.5em;
+    }
